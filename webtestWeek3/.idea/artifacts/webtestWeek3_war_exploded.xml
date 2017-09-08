@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="webtestWeek3:war exploded">
+    <output-path>$PROJECT_DIR$/target/webtestWeek3</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="webtestWeek3" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: edu.matc.week3excercise:week3exercise:1.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: javax:javaee-web-api:7.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/webtestWeek3/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="webtestWeek3/web/Web" />
+    </root>
+  </artifact>
+</component>
